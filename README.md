@@ -1,6 +1,8 @@
-<p align="center"> <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python"> <img src="https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge&logo=scikitlearn"> <img src="https://img.shields.io/badge/XGBoost-Classifier-green?style=for-the-badge"> <img src="https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge&logo=streamlit"> <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-black?style=for-the-badge&logo=pandas"> <img src="https://img.shields.io/badge/NumPy-Numerical%20Computing-blue?style=for-the-badge&logo=numpy"> <img src="https://img.shields.io/badge/Matplotlib-Visualization-yellow?style=for-the-badge"> <img src="https://img.shields.io/badge/Machine%20Learning-End%20to%20End-purple?style=for-the-badge"> </p>
 # Predictive-Maintenance-using-Machine-Learning
+<p align="center"> <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python"> <img src="https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge&logo=scikitlearn"> <img src="https://img.shields.io/badge/XGBoost-Classifier-green?style=for-the-badge"> <img src="https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge&logo=streamlit"> <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-black?style=for-the-badge&logo=pandas"> <img src="https://img.shields.io/badge/NumPy-Numerical%20Computing-blue?style=for-the-badge&logo=numpy"> <img src="https://img.shields.io/badge/Matplotlib-Visualization-yellow?style=for-the-badge"> <img src="https://img.shields.io/badge/Machine%20Learning-End%20to%20End-purple?style=for-the-badge"> </p>
+
 A Machine Learning-based Predictive Maintenance System developed to predict machine failures and reduce downtime using data-driven insights. The project includes data preprocessing, feature engineering, imbalance handling with SMOTE, and model training using XGBoost. Deployed with Streamlit for real-time machine failure prediction.
+
 📌 Project Overview
 
 This project focuses on building an end-to-end Predictive Maintenance System using Machine Learning to predict whether an industrial machine is likely to fail based on sensor and operational data.
@@ -55,6 +57,7 @@ Matplotlib
 Seaborn
 Streamlit
 Pickle
+
 🔍 Machine Learning Workflow
 ✅ Data Preprocessing
 Missing value handling
@@ -64,6 +67,7 @@ Label Encoding
 Feature Scaling using StandardScaler
 Box-Cox Transformation for skewness reduction
 Feature Selection
+
 📊 Exploratory Data Analysis (EDA)
 
 Performed detailed EDA to understand:
@@ -108,6 +112,7 @@ Recall
 F1-Score
 Confusion Matrix
 Cross Validation
+
 🌐 Streamlit Deployment
 
 The trained machine learning model was deployed using Streamlit to provide an interactive web application where users can:
@@ -128,18 +133,6 @@ Predictive-Maintenance/
 ├── requirements.txt
 ├── README.md
 └── predictive_maintenance.ipynb
-▶️ How to Run the Project
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/predictive-maintenance.git
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-3️⃣ Run Streamlit App
-streamlit run app.py
-📸 Application Preview
-
-Add screenshots of your Streamlit application here.
-
-💡 Key Highlights
 
 ✅ End-to-End ML Project
 ✅ Industry Use Case
@@ -159,6 +152,7 @@ Model optimization
 Imbalanced classification problems
 Deployment of ML applications
 Building production-ready ML projects
+
 👨‍💻 Author
 Archit Tomar
 
