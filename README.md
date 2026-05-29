@@ -3,7 +3,7 @@
 
 A Machine Learning-based Predictive Maintenance System developed to predict machine failures and reduce downtime using data-driven insights. The project includes data preprocessing, feature engineering, imbalance handling with SMOTE, and model training using XGBoost. Deployed with Streamlit for real-time machine failure prediction.
 
-📌 Project Overview
+Project Overview
 
 This project focuses on building an end-to-end Predictive Maintenance System using Machine Learning to predict whether an industrial machine is likely to fail based on sensor and operational data.
 
@@ -19,7 +19,7 @@ Streamlit Deployment
 
 The final deployed model uses XGBoost Classifier, achieving high prediction performance for machine failure detection.
 
-🎯 Business Problem
+Business Problem
 
 Unexpected machine failures can lead to:
 
@@ -30,7 +30,7 @@ Higher maintenance expenses
 
 The goal of this project is to proactively predict machine failures so industries can perform preventive maintenance before breakdowns occur.
 
-📂 Dataset Information
+ Dataset Information
 
 The dataset contains machine operational parameters and sensor readings used to predict machine failure.
 
@@ -46,8 +46,9 @@ Target	Failure Indicator (0 = No Failure, 1 = Failure)
 
 Project reference and dataset context:
 
-⚙️ Tech Stack
-🖥️ Programming & Libraries
+ Tech Stack
+ 
+Programming & Libraries
 Python
 Pandas
 NumPy
@@ -58,8 +59,8 @@ Seaborn
 Streamlit
 Pickle
 
-🔍 Machine Learning Workflow
-✅ Data Preprocessing
+Machine Learning Workflow
+Data Preprocessing
 Missing value handling
 Duplicate value removal
 Outlier treatment
@@ -68,7 +69,7 @@ Feature Scaling using StandardScaler
 Box-Cox Transformation for skewness reduction
 Feature Selection
 
-📊 Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA)
 
 Performed detailed EDA to understand:
 
@@ -77,14 +78,14 @@ Correlation between variables
 Failure patterns
 Class imbalance analysis
 Outlier detection
-⚖️ Handling Imbalanced Dataset
+Handling Imbalanced Dataset
 
 Since machine failures were highly imbalanced, imbalance handling techniques were applied:
 
 SMOTE
 SMOTETomek
 Class balancing strategies
-🤖 Model Building
+Model Building
 
 Multiple machine learning models were trained and evaluated:
 
@@ -93,8 +94,9 @@ Random Forest
 Decision Tree
 KNN
 XGBoost Classifier
-🏆 Final Model Selected
-✅ XGBoost Classifier
+
+Final Model Selected
+  XGBoost Classifier
 
 Reasons for selection:
 
@@ -102,7 +104,8 @@ High accuracy
 Better generalization
 Strong performance on imbalanced data
 Robust handling of non-linear relationships
-📈 Model Evaluation Metrics
+
+Model Evaluation Metrics
 
 The model was evaluated using:
 
@@ -113,47 +116,14 @@ F1-Score
 Confusion Matrix
 Cross Validation
 
-🌐 Streamlit Deployment
+Streamlit Deployment
 
 The trained machine learning model was deployed using Streamlit to provide an interactive web application where users can:
 
 Enter machine parameters
 Predict machine failure instantly
 View prediction results in real-time
-📁 Project Structure
-Predictive-Maintenance/
-│
-├── data/
-├── notebooks/
-├── models/
-│   ├── xgb_model.pkl
-│   ├── scaler.pkl
-│
-├── app.py
-├── requirements.txt
-├── README.md
-└── predictive_maintenance.ipynb
 
-✅ End-to-End ML Project
-✅ Industry Use Case
-✅ Imbalanced Data Handling
-✅ Feature Engineering
-✅ XGBoost Optimization
-✅ Streamlit Deployment
-✅ Production-Oriented Workflow
-
-📚 Learning Outcomes
-
-Through this project, I gained practical experience in:
-
-Real-world Machine Learning workflow
-Data preprocessing techniques
-Model optimization
-Imbalanced classification problems
-Deployment of ML applications
-Building production-ready ML projects
-
-👨‍💻 Author
+Author
 Archit Tomar
 
-Machine Learning Enthusiast passionate about building real-world AI/ML solutions and deploying scalable applications.
